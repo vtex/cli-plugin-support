@@ -6,12 +6,14 @@
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
+    "jsonwebtoken": "^8.5.1",
     "tslib": "^1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
     "@oclif/plugin-help": "^3",
     "@types/jest": "^26.0.3",
+    "@types/jsonwebtoken": "^8.5.0",
     "@types/node": "^14.0.14",
     "eslint": "^6.8.0",
     "eslint-config-oclif": "^3.1",
@@ -26,7 +28,7 @@
     "ts-jest": "^25.2.1",
     "ts-node": "^8",
     "typescript": "^3.8.2",
-    "vtex": "^2.121.1"
+    "vtex": "^2.122.0-beta"
   },
   "engines": {
     "node": ">=8.0.0"
