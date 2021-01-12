@@ -1,4 +1,4 @@
-# VTEX CLI Plugin Template
+# VTEX CLI Plugin Support
 
 Extend the `vtex` toolbelt!
 
@@ -8,17 +8,17 @@ Extend the `vtex` toolbelt!
 2. Clone/Create a plugin with this template.
 3. Change the template name under this project's `package.json`.
 2. Run `yarn link` on this project.
-3. Now run `vtex link @vtex/cli-plugin-template` (or the new name) on the `vtex/toolbelt` project.
+3. Now run `vtex link @vtex/cli-plugin-support` (or the new name) on the `vtex/toolbelt` project.
 4. Run `yarn watch` on the `vtex/toolbelt`
 5. Test the command on a VTEX IO app with `vtex-test hello`
 
 For more information, read [Ocliff Docs](https://oclif.io/docs/introduction).
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-![npm](https://img.shields.io/npm/v/@vtex/cli-plugin-template)
+![npm](https://img.shields.io/npm/v/@vtex/cli-plugin-support)
 
 <!-- toc -->
-* [VTEX CLI Plugin Template](#vtex-cli-plugin-template)
+* [VTEX CLI Plugin Support](#vtex-cli-plugin-support)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->

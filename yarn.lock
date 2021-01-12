@@ -1150,10 +1150,10 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-"@vtex/api@3.71.1":
-  version "3.71.1"
-  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-3.71.1.tgz#996a9148cceadb8cd68939f47ce739b88b6bad97"
-  integrity sha512-CurrRU1U/svHbbyvhsICD8/IqtSQplH/AzS9q0iQ0OC6AH4H8hLUvaNuFMIDW4jSMInqepqKkcS3BQsw9wBxBQ==
+"@vtex/api@3.77.0":
+  version "3.77.0"
+  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-3.77.0.tgz#b5a4a2c34fc9c166f2acc0d6e8474d01114bba19"
+  integrity sha512-y9e87H8VlxkFvCnEbSv+EGfEMsyN1470lsq6cQRPjmshbLjBEUm5+K6dv0Cnmiwl8LDB/sGGV73ZyKH5Zu5s4Q==
   dependencies:
     "@types/koa" "^2.0.48"
     "@types/koa-compose" "^3.2.3"
@@ -1220,10 +1220,10 @@
     semver "^7.3.2"
     tar-fs "^2.1.0"
 
-"@vtex/cli-plugin-deploy@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@vtex/cli-plugin-deploy/-/cli-plugin-deploy-0.1.1.tgz#569599d66592517abc26e3844b21d4c48199d58c"
-  integrity sha512-jmtpjr+xpKzYh/THudMweGkajh+tZCHAajUNyF5BzsZ4RB3hyG9ZJ59VQnOQHWqm1nulpC+k1QHn3d9BQQkpaA==
+"@vtex/cli-plugin-deploy@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@vtex/cli-plugin-deploy/-/cli-plugin-deploy-0.2.0.tgz#c13eb6084fa1253ff315438d0102dfd13e8a800e"
+  integrity sha512-DQJbgt3Mr3PwYbkfkzB2bSgZGjSjG39F+bIO94FJjuaaictIQcJjQfdfMVr4tICbJnfmzU2h9CmWhbMXXDiPNw==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
@@ -1290,10 +1290,10 @@
     progress "^2.0.3"
     tslib "^1"
 
-"@vtex/cli-plugin-submit@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@vtex/cli-plugin-submit/-/cli-plugin-submit-0.1.1.tgz#d37ab91c4ce014a12e17f52ef2bc866376666c3b"
-  integrity sha512-4pB38USkFcKmqiUE9OnMK4F+Dd6YKYT0CuOABudSIyjKiZxozgdx1XOrajhNpVV85ctMH92pviKTRVyRoWuy4g==
+"@vtex/cli-plugin-submit@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@vtex/cli-plugin-submit/-/cli-plugin-submit-0.2.0.tgz#a2e1c239c32d5cc15ac252996c2aae9cb6e11543"
+  integrity sha512-7glx48xsVFg0QxcaWw0adA6JRD9CTc44t7yTUfsbPJeO6zbGjKX+AAO5IaSeLVcstz33CQHTs6+o9YHVXp49ng==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
@@ -1312,10 +1312,30 @@
     chalk "^4.1.0"
     tslib "^1"
 
-"@vtex/cli-plugin-workspace@^0.1.0":
+"@vtex/cli-plugin-url@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@vtex/cli-plugin-url/-/cli-plugin-url-0.0.0.tgz#61d737bed9778e7465143dd0506f0ac42c610f53"
+  integrity sha512-gCGYDnYD9wkP0Ik5FS+2z6eRTk9ckJh3eob++suVdVbbRnnAPygXX5e84dVtiYlJ3P8FC3JCgDI8E7O/srHImA==
+  dependencies:
+    "@oclif/command" "^1"
+    "@oclif/config" "^1"
+    configstore "^5.0.1"
+    jsonwebtoken "^8.5.1"
+    tslib "^1"
+
+"@vtex/cli-plugin-whoami@^0.1.0":
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@vtex/cli-plugin-workspace/-/cli-plugin-workspace-0.1.0.tgz#286ad48062decc9522f539d997f8cc9f72d08854"
-  integrity sha512-9YV6fEGLUiFLiXCbmn8BfB3v9oXIA4lethb5gVWTDLCaXUFH/tRMb0y5r6f9+xNmddwzzpXcKE374fQaY4jAmg==
+  resolved "https://registry.yarnpkg.com/@vtex/cli-plugin-whoami/-/cli-plugin-whoami-0.1.0.tgz#87c49dc1f0b4523a2eecb5d6b53c68b6e56ec83a"
+  integrity sha512-A/+fVDB7AxQ59+6z9IY45mWqjeRTlKDE1ghN3u3J5iAmovEt4PQRgxwkXatOZmyMOCLUrg5gXu0cm4DWWjKZ7Q==
+  dependencies:
+    "@oclif/command" "^1"
+    "@oclif/config" "^1"
+    tslib "^1"
+
+"@vtex/cli-plugin-workspace@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@vtex/cli-plugin-workspace/-/cli-plugin-workspace-0.1.2.tgz#d38baccd3eae070601830cffbe9d5a88d1c78ea7"
+  integrity sha512-dvEuw8/YEzftWsC3reB7rWXw2koazhKMJTpLsZd4PKyRshDB85JFl3OQ60QYKaKtCrKmlai5dCgibaDxXLeiNg==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
@@ -5797,7 +5817,7 @@ jsonparse@^1.3.1:
   resolved "https://registry.yarnpkg.com/jsonparse/-/jsonparse-1.3.1.tgz#3f4dae4a91fac315f71062f8521cc239f1366280"
   integrity sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
 
-jsonwebtoken@~8.5.1:
+jsonwebtoken@^8.5.1, jsonwebtoken@~8.5.1:
   version "8.5.1"
   resolved "https://registry.yarnpkg.com/jsonwebtoken/-/jsonwebtoken-8.5.1.tgz#00e71e0b8df54c2121a1f26137df2280673bcc0d"
   integrity sha512-XjwVfRS6jTMsqYs0EsuJ4LGxXV14zQybNd4L2r0UvbVnSF9Af8x7p5MzbJ90Ioz/9TI41/hTCvznF/loiSzn8w==
@@ -6802,10 +6822,10 @@ only@~0.0.2:
   resolved "https://registry.yarnpkg.com/only/-/only-0.0.2.tgz#2afde84d03e50b9a8edc444e30610a70295edfb4"
   integrity sha1-Kv3oTQPlC5qO3EROMGEKcCle37Q=
 
-open@^7.0.2:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/open/-/open-7.1.0.tgz#68865f7d3cb238520fa1225a63cf28bcf8368a1c"
-  integrity sha512-lLPI5KgOwEYCDKXf4np7y1PBEkj7HYIyP2DY8mVDRnx0VIIu6bNrRB0R66TuO7Mack6EnTNLm4uvcl1UoklTpA==
+open@^7.3.0:
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/open/-/open-7.3.1.tgz#111119cb919ca1acd988f49685c4fdd0f4755356"
+  integrity sha512-f2wt9DCBKKjlFbjzGb8MOAW8LH8F0mrs1zc7KTjAJ9PZNQbfenzWbNP1VZJvw6ICMG9r14Ah6yfwPn7T7i646A==
   dependencies:
     is-docker "^2.0.0"
     is-wsl "^2.1.1"
@@ -8165,7 +8185,7 @@ static-extend@^0.1.1, static-extend@^0.1.2:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-stats-lite@vtex/node-stats-lite#dist:
+"stats-lite@github:vtex/node-stats-lite#dist":
   version "2.2.0"
   resolved "https://codeload.github.com/vtex/node-stats-lite/tar.gz/1b0d39cc41ef7aaecfd541191f877887a2044797"
   dependencies:
@@ -8999,27 +9019,29 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vtex@^2.115.0:
-  version "2.115.0"
-  resolved "https://registry.yarnpkg.com/vtex/-/vtex-2.115.0.tgz#a2aa52e13abea6ae8b9ee642719ceb0050cf33f9"
-  integrity sha512-FvPea2yQBafx6NMqHyWFeHUE+/7hD7fKCHvbf/kswYPfB00D4H1a0Sn3nPolNaf1h+/Xr1iI5Nc6v5A1GGuFFg==
+vtex@^2.121.1:
+  version "2.121.1"
+  resolved "https://registry.yarnpkg.com/vtex/-/vtex-2.121.1.tgz#28237a982bb7aa033d654560beeda49562095ea7"
+  integrity sha512-AZmhBz2RR3mktgEolp40MLuKvBJvALbdPw0ue7xBCIh2Ddb/bQLOCim/V4IbzURDd9kUsjC2E48l2V4s4Fd7jQ==
   dependencies:
     "@oclif/command" "^1.0.0"
     "@oclif/config" "^1.0.0"
     "@oclif/plugin-help" "^2.0.0"
     "@tiagonapoli/oclif-plugin-spaced-commands" "^0.0.6"
-    "@vtex/api" "3.71.1"
+    "@vtex/api" "3.77.0"
     "@vtex/cli-plugin-abtest" "^0.0.5"
     "@vtex/cli-plugin-autoupdate" "^0.0.1"
-    "@vtex/cli-plugin-deploy" "^0.1.1"
+    "@vtex/cli-plugin-deploy" "^0.2.0"
     "@vtex/cli-plugin-deps" "^0.0.1"
     "@vtex/cli-plugin-edition" "^0.0.1"
     "@vtex/cli-plugin-infra" "^0.1.0"
     "@vtex/cli-plugin-lighthouse" "^0.0.3"
     "@vtex/cli-plugin-redirects" "^0.0.2"
-    "@vtex/cli-plugin-submit" "^0.1.1"
+    "@vtex/cli-plugin-submit" "^0.2.0"
     "@vtex/cli-plugin-test" "^0.0.5"
-    "@vtex/cli-plugin-workspace" "^0.1.0"
+    "@vtex/cli-plugin-url" "^0.0.0"
+    "@vtex/cli-plugin-whoami" "^0.1.0"
+    "@vtex/cli-plugin-workspace" "^0.1.2"
     "@vtex/node-error-report" "^0.0.2"
     "@vtex/toolbelt-message-renderer" "^0.0.1"
     "@yarnpkg/lockfile" "^1.1.0"
@@ -9058,7 +9080,7 @@ vtex@^2.115.0:
     moment "~2.24.0"
     node-notifier "^6.0.0"
     numbro "2.1.0"
-    open "^7.0.2"
+    open "^7.3.0"
     opn "~5.2.0"
     ora "^4.0.3"
     pipe-streams-to-promise "~0.2.0"
