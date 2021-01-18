@@ -1,17 +1,22 @@
 {
-  "name": "@vtex/cli-plugin-template",
-  "description": "vtex plugin template",
-  "version": "0.0.0",
-  "bugs": "https://github.com/vtex/cli-plugin-template/issues",
+  "name": "@vtex/cli-plugin-support",
+  "description": "vtex plugin support",
+  "version": "0.0.1",
+  "bugs": "https://github.com/vtex/cli-plugin-support/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
+    "axios": "^0.21.1",
+    "enquirer": "^2.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "ramda": "^0.27.1",
     "tslib": "^1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
     "@oclif/plugin-help": "^3",
     "@types/jest": "^26.0.3",
+    "@types/jsonwebtoken": "^8.5.0",
     "@types/node": "^14.0.14",
     "eslint": "^6.8.0",
     "eslint-config-oclif": "^3.1",
@@ -26,7 +31,7 @@
     "ts-jest": "^25.2.1",
     "ts-node": "^8",
     "typescript": "^3.8.2",
-    "vtex": "^2.115.0"
+    "vtex": "^2.122.0-beta"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -37,7 +42,7 @@
     "/oclif.manifest.json",
     "/yarn.lock"
   ],
-  "homepage": "https://github.com/vtex/cli-plugin-template",
+  "homepage": "https://github.com/vtex/cli-plugin-support",
   "keywords": [
     "oclif-plugin"
   ],
@@ -49,7 +54,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "vtex/cli-plugin-template",
+  "repository": "vtex/cli-plugin-support",
   "scripts": {
     "build-clean": "rm -rf build",
     "build-incremental": "tsc --incremental",
