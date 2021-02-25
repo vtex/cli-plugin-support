@@ -29,7 +29,7 @@ $ npm install -g @vtex/cli-plugin-support
 $ vtex COMMAND
 running command...
 $ vtex (-v|--version|version)
-@vtex/cli-plugin-support/0.0.1 linux-x64 node-v12.20.1
+@vtex/cli-plugin-support/0.0.1 linux-x64 node-v12.20.2
 $ vtex --help [COMMAND]
 USAGE
   $ vtex COMMAND
@@ -42,11 +42,14 @@ USAGE
 
 ## `vtex support ACCOUNT`
 
-Login as support into another VTEX account
+Logs in as support to another [93mVTEX account[39m.
 
 ```
 USAGE
   $ vtex support ACCOUNT
+
+ARGUMENTS
+  ACCOUNT  Name of the account to give support.
 
 OPTIONS
   -h, --help     show CLI help
