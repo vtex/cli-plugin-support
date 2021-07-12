@@ -29,7 +29,7 @@ $ npm install -g @vtex/cli-plugin-support
 $ vtex COMMAND
 running command...
 $ vtex (-v|--version|version)
-@vtex/cli-plugin-support/0.1.2 linux-x64 node-v12.21.0
+@vtex/cli-plugin-support/0.1.3 linux-x64 node-v12.22.1
 $ vtex --help [COMMAND]
 USAGE
   $ vtex COMMAND
@@ -42,7 +42,7 @@ USAGE
 
 ## `vtex support ACCOUNT`
 
-Logs in as support to another [38;5;149mVTEX account.
+Logs in as support to another VTEX account.
 
 ```
 USAGE
@@ -60,5 +60,5 @@ EXAMPLE
   vtex support storecomponents
 ```
 
-_See code: [build/commands/support.ts](https://github.com/vtex/cli-plugin-support/blob/v0.1.2/build/commands/support.ts)_
+_See code: [build/commands/support.ts](https://github.com/vtex/cli-plugin-support/blob/v0.1.3/build/commands/support.ts)_
 <!-- commandsstop -->
