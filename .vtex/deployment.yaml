@@ -1,0 +1,16 @@
+- name: cli-plugin-support
+  build:
+    provider: dkcicd
+    pipelines:
+      - name: techdocs-v1
+        parameters:
+          entityReference: default/component/cli-plugin-support
+          sourceDir: ./
+        when:
+          - event: push
+            source: branch
+            regex: master
+            path:
+              - "docs/**"
+              - README.md
+              - .vtex/deployment.yaml
