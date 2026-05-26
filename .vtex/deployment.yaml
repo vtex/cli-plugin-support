@@ -1,5 +1,5 @@
 - name: cli-plugin-support
-  referenceId: PLACEHOLDER
+  referenceId: JW011RIB
   build:
     provider: dkcicd
     pipelines:
